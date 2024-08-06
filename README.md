@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/0c4823a5-6387-4b55-89ad-db77c582306a)
 ### Descripción
 
-Este script se utiliza para detectar dispositivos en una red local y, potencialmente, deshabilitarlos mediante un ataque de ARP spoofing. ​​
+Este script se utiliza para detectar dispositivos en una red local y, potencialmente, inhabilitarlos mediante un ataque de ARP spoofing. ​​
 
 ### Características
 
