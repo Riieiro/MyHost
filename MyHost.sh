@@ -13,24 +13,23 @@ trap crtl_c INT
 echo -e "
 \e[31m
 
-        ██                    
-       █████      ▓████       
-      ███   █    ███████      
-    ███       █ ███████       
-   ███         ███████        
-  ██           ████████                 ┳┳┓  ┓┏    
- ██           █████████                 ┃┃┃┓┏┣┫┏┓┏╋
- █            █████████                 ┛ ┗┗┫┛┗┗┛┛┗
-██             █████████                    ┛      
-█              ████████ ██       
-               █████████  █▒           (Hecho por: \e[36mRieiro\e[0m\e[31m)       
-              ██████████    █ 
-              ██████████      
-              ██████████      
-             ███████████      
-             ██████████       
-            ███████████       
-          ██████████████               
+                                
+           ████████████         
+       ███████████              
+    ██████████                  
+ ██████████                     
+████████          ████████       
+  ████          ████████████     
+   ███        ███████████████                      ┳┳┓  ┓┏    
+    ███      █████        █████                    ┃┃┃┓┏┣┫┏┓┏╋
+     ███    █████  █    █  █████                   ┛ ┗┗┫┛┗┗┛┛┗
+      ███   █████  ██  ██  █████                       ┛      
+       ████ █████         █████       \e[31m(\e[33mHecho por: \e[36mhttps://github.com/Riieiro\e[0m\e[31m)
+         ███ █████        ████  
+          ███ █████     █████   
+           ██████████████████   
+            ███████████████████ 
+                                
 
 
 
@@ -70,6 +69,7 @@ read kill_ip
 sudo nmap -O $kill_ip > MyHostOS.txt
 echo -e "\e[33m[+]El dispositivo es un" "\e[31m$(grep "Running" MyHostOS.txt | awk -F 'Running: ' ' {print $2}')\e[0m"
 rm MyHostOS.txt
+echo -e "\e[31m[!]NOTA: Es posible que nmap no encuentre el sistema operativo[!]\e[0m"
 
 echo -n -e "\e[33m[+]¿Quieres continuar?\e[0m(\e[32msi\e[0m/\e[31mno\e[0m): "
 read respuesta
