@@ -52,6 +52,6 @@ Tras seleccionar la interfaz, la herramienta mostrará por pantalla todas las ip
 
 ![image](https://github.com/user-attachments/assets/7f777b30-0f7c-43df-89a6-06605c270095)
 
-Por úlitmo, `MyHost.sh` da la opción de inhabilitar una ip, mostrando si es posible el Sistena Operativo.
+Por úlitmo, `MyHost.sh` da la opción de inhabilitar una ip, mostrando si es posible el sistena operativo.
 
 ![image](https://github.com/user-attachments/assets/cd2e950a-0782-4a08-a85d-457035d96194)
